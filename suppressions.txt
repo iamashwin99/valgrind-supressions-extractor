@@ -1,0 +1,149 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:gomp_malloc
+   fun:gomp_init_num_threads
+   fun:initialize_env
+   fun:call_init.part.0
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/x86_64-linux-gnu/ld-2.31.so
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:gsl_spline_alloc
+   fun:oct_spline_fit_
+   fun:__splines_oct_m_MOD_spline_fit
+   fun:__ps_oct_m_MOD_ps_grid_load
+   fun:__ps_oct_m_MOD_ps_init
+   fun:__species_oct_m_MOD_species_build
+   fun:__ions_oct_m_MOD_ions_constructor
+   fun:__electrons_oct_m_MOD_electrons_constructor
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:cspline_alloc
+   fun:gsl_interp_alloc
+   fun:gsl_spline_alloc
+   fun:oct_spline_fit_
+   fun:__splines_oct_m_MOD_spline_fit
+   fun:__ps_oct_m_MOD_ps_grid_load
+   fun:__ps_oct_m_MOD_ps_init
+   fun:__species_oct_m_MOD_species_build
+   fun:__ions_oct_m_MOD_ions_constructor
+   fun:__electrons_oct_m_MOD_electrons_constructor
+   fun:__test_oct_m_MOD_test_hartree
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__list_node_oct_m_MOD_list_node_constructor
+   fun:__linked_list_oct_m_MOD_linked_list_add_node
+   fun:__linked_list_oct_m_MOD_linked_list_add_node_copy
+   fun:__linked_list_oct_m_MOD_integer_list_add_node
+   fun:__classical_particle_oct_m_MOD_classical_particle_init
+   fun:__classical_particle_oct_m_MOD_classical_particle_constructor
+   fun:__system_factory_oct_m_MOD_system_factory_create
+   fun:__multisystem_oct_m_MOD_multisystem_init
+   fun:__multisystem_basic_oct_m_MOD_multisystem_basic_constructor
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__symmetrizer_oct_m_MOD_symmetrizer_init
+   fun:__grid_oct_m_MOD_grid_init_stage_2
+   fun:__electrons_oct_m_MOD_electrons_init_parallelization
+   fun:__test_oct_m_MOD_test_helmholtz_decomposition
+   fun:__test_oct_m_MOD_test_run
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__poisson_isf_oct_m_MOD_poisson_isf_init
+   fun:__poisson_oct_m_MOD_poisson_init
+   fun:__hamiltonian_elec_oct_m_MOD_hamiltonian_elec_init
+   fun:__electrons_oct_m_MOD_electrons_init_parallelization
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__nl_operator_oct_m_MOD_nl_operator_build
+   fun:__derivatives_oct_m_MOD_derivatives_build
+   fun:__grid_oct_m_MOD_grid_init_stage_2
+   fun:__maxwell_oct_m_MOD_maxwell_init_parallelization
+   fun:__multisystem_oct_m_MOD_multisystem_init_parallelization
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:gomp_malloc
+   fun:gomp_init_num_threads
+   fun:initialize_env
+   fun:call_init.part.0
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/x86_64-linux-gnu/ld-2.31.so
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__symmetrizer_oct_m_MOD_symmetrizer_init
+   fun:__grid_oct_m_MOD_grid_init_stage_2
+   fun:__electrons_oct_m_MOD_electrons_init_parallelization
+   fun:__test_oct_m_MOD_test_helmholtz_decomposition
+   fun:__test_oct_m_MOD_test_run
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__poisson_isf_oct_m_MOD_poisson_isf_init
+   fun:__poisson_oct_m_MOD_poisson_init
+   fun:__hamiltonian_elec_oct_m_MOD_hamiltonian_elec_init
+   fun:__electrons_oct_m_MOD_electrons_init_parallelization
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:__nl_operator_oct_m_MOD_nl_operator_build
+   fun:__derivatives_oct_m_MOD_derivatives_build
+   fun:__grid_oct_m_MOD_grid_init_stage_2
+   fun:__maxwell_oct_m_MOD_maxwell_init_parallelization
+   fun:__multisystem_oct_m_MOD_multisystem_init_parallelization
+   fun:__run_oct_m_MOD_run
+   fun:MAIN__
+   fun:main
+}
